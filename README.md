@@ -2,14 +2,11 @@
 
 - leverages `browser-use` for web navigation and interaction with Craigslist
 - built using `langgraph` to orchestrate an agentic workflow
-
+- note: max listings is the maximum number of listings to look at (i.e. maximum number of browser windows to open if running in non-headless mode)
 
 ## demo
 
-<video width="100%" controls>
-  <source src="cl-agent-demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![demo](cl-agent-demo-gif.gif)
 
 ## setup
 
