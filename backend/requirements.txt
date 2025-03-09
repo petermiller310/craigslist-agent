@@ -1,0 +1,12 @@
+fastapi>=0.110.0
+uvicorn>=0.27.1
+# Using a more flexible pydantic version to resolve conflicts
+pydantic>=2.10.4
+python-multipart>=0.0.9
+requests>=2.31.0
+# Using compatible versions of langchain packages
+langchain-core>=0.3.35
+langchain-openai>=0.0.5
+langgraph>=0.0.27
+beautifulsoup4>=4.12.2
+browser-use>=0.1.40
