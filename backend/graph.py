@@ -138,7 +138,7 @@ def apartment_finder_graph(
                     use_vision_for_planner=True,
                     controller=search_controller,
                     use_vision=True,
-                    planner_interval=4,
+                    planner_interval=2,
                     initial_actions=[
                         {"go_to_url": {"url": "https://geo.craigslist.org/iso/us"}}
                     ],
@@ -160,7 +160,7 @@ def apartment_finder_graph(
                     use_vision_for_planner=True,
                     controller=extract_search_results_controller,
                     use_vision=True,
-                    planner_interval=4,
+                    planner_interval=2,
                     browser_context=context,
                     browser=browser,
                     initial_actions=[{"go_to_url": {"url": search_url.url}}],

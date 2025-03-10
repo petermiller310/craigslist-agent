@@ -18,8 +18,9 @@ Extract detailed apartment search requirements from the following description.
 - Don't make assumptions about requirements that aren't stated or strongly implied
 - For price range:
   - Extract both minimum and maximum price if specified
-  - If only "under $X" or "less than $X" is mentioned, set max_price only
-  - If only "at least $X" or "more than $X" is mentioned, set min_price only
+  - If the user specifies under $X price, set max_price to X and min_price to 0
+  - If the user specifies at least $X price, set min_price to X and max_price to None
+  - If the user specifies $X - $Y price, set min_price to X and max_price to Y
 - For bedroom requirements:
   - Extract both minimum and maximum number of bedrooms if specified
   - If a specific number is mentioned (e.g., "2 bedroom"), set both min_bedrooms and max_bedrooms to that number
