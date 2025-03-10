@@ -10,6 +10,8 @@
 
 ![demo2](cl-agent-demo-gif-2.gif)
 
+![demo3](cl-agent-demo-gif-3.gif)
+
 ## setup
 
 create a `.env` file w/

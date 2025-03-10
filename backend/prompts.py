@@ -123,12 +123,15 @@ Output Format:
 price_filter_template = """   a. FOR PRICE FILTER:
       - Find the price filter section in the sidebar
       - Enter {min_price} in the min price input field
+      - Press Enter or click outside the field to apply
       - Enter {max_price} in the max price input field
+      - Press Enter or click outside the field to apply
 """
 
 bedroom_filter_template = """   b. FOR BEDROOMS FILTER:
       - Find the bedrooms filter section in the sidebar
       - Enter {min_bedrooms} in the min bedrooms input field
+      - Press Enter or click outside the field to apply
       - Enter {max_bedrooms} in the max bedrooms input field
       - Press Enter or click outside the field to apply
 """
@@ -136,6 +139,7 @@ bedroom_filter_template = """   b. FOR BEDROOMS FILTER:
 bathroom_filter_template = """   c. FOR BATHROOMS FILTER:
       - Find the bathrooms filter section in the sidebar
       - Enter {min_bathrooms} in the min bathrooms input field
+      - Press Enter or click outside the field to apply
       - Enter {max_bathrooms} in the max bathrooms input field
       - Press Enter or click outside the field to apply
 """
