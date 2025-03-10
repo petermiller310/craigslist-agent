@@ -62,11 +62,12 @@ You'll need to select the correct region on Craigslist, navigate to its apartmen
    - FIRST: Scan the visible page for the parent city/region name you identified in step 1
    - DO NOT click on any region until you've verified it's the correct one
    - If the correct region is not visible in the initial view:
-     a. Scroll down by a large amount (at least 2000 pixels) to view more options
+     a. Scroll down by a large amount (at least 1000 pixels) to view more options
      b. Scan the newly visible regions
      c. Continue scrolling and scanning until you've either found the correct region or viewed the entire page
    - ONLY AFTER confirming you've found the correct region, click on it
    - If you're unsure about a region, continue scrolling to see all options before making a selection
+   - If you have reached the bottom of the page and still haven't found the correct region, scroll back to the top and repeat the process
 
 3. After finding and clicking on the correct region, click on the "apts / housing" link in the housing section
 
